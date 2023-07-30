@@ -11,7 +11,8 @@
       "baseUrl": ".", // Directorio base para resolver rutas de importación relativas.
       "paths": {
         "@/*": ["src/*"] // Configuración de alias de rutas para importaciones.
-      }
+      },
+      "types":["vite/client", "node"]
     },
     "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"], // Qué archivos se incluirán en la compilación.
     "exclude": ["node_modules", "dist"] // Qué archivos y carpetas se excluyen de la compilación.
