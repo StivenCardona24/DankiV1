@@ -27,11 +27,15 @@ const kid = () => {
   router.push("/kid")
 }
 
+const music = () => {
+  router.push("/kid/music")
+}
+
 
 const images = [
   {
     "url": "/src/assets/images/BtMusic.png",
-    "method": kid,
+    "method": music,
     "name": "Música"
   },
  

@@ -2,8 +2,12 @@
   "name": "dancingkids",
   "version": "0.0.0",
   "private": true,
+
+  "homepage": "https://StivenCardona24.github.io/DankiV1",
+
   "scripts": {
     "dev": "vite",
+    "deploy": "gh-pages -d dist",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -21,6 +25,7 @@
     "@types/node": "^18.17.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/tsconfig": "^0.4.0",
+    "gh-pages": "^5.0.0",
     "npm-run-all": "^4.1.5",
     "tailwindcss": "^3.3.3",
     "typescript": "~5.1.6",
