@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "esnext", // La versión de ECMAScript a la que se compilará el código.
+      "module": "esnext", // El sistema de módulos a utilizar.
+      "moduleResolution": "node", // Cómo se resuelven los módulos.
+    //   "strict": true, // Habilita las comprobaciones estrictas de TypeScript.
+      "jsx": "preserve", // Cómo se manejan las expresiones JSX.
+      "allowSyntheticDefaultImports": true, // Permite importaciones con valores por defecto sintéticos.
+      "esModuleInterop": true, // Habilita la interoperabilidad de módulos en el espacio de nombres común.
+      "sourceMap": true, // Genera archivos de mapa de origen para facilitar la depuración.
+      "baseUrl": ".", // Directorio base para resolver rutas de importación relativas.
+      "paths": {
+        "@/*": ["src/*"] // Configuración de alias de rutas para importaciones.
+      }
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"], // Qué archivos se incluirán en la compilación.
+    "exclude": ["node_modules", "dist"] // Qué archivos y carpetas se excluyen de la compilación.
+  }
+  
